@@ -1,0 +1,238 @@
+.top-block {
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
+  width: 256px; /* 3 groups x 8px each */
+  /* margin-top: -10px;
+  margin-left: 20px; */
+  /* margin-height: 10px; */
+}
+
+.left-flags {
+  display: flex;
+  /* justify-content: space-between; */
+  /* height: 36px; 3 sprites x 8px each */
+  width: 100px;
+}
+.start-btn {
+  display: flex;
+  /* justify-content: space-between; */
+  /* height: 36px; 3 sprites x 8px each */
+  width: 56px;
+}
+.timer {
+  display: flex;
+  /* justify-content: space-between; */
+  /* height: 36px; 3 sprites x 8px each */
+  width: 100px;
+}
+
+.number1 {
+  background-image: url('sprite.png');
+  background-position: 0 0;
+  width: 13px;
+  height: 22px;
+}
+
+.number2 {
+  background-image: url('sprite.png');
+  background-position: -14px 0;
+  width: 13px;
+  height: 22px;
+}
+
+.number3 {
+  background-image: url('sprite.png');
+  background-position: -28px 0;
+  width: 13px;
+  height: 22px;
+}
+.number4 {
+  background-image: url('sprite.png');
+  background-position: -42px 0;
+  width: 13px;
+  height: 22px;
+}
+.number5 {
+  background-image: url('sprite.png');
+  background-position: -56px 0;
+  width: 13px;
+  height: 22px;
+}
+.number6 {
+  background-image: url('sprite.png');
+  background-position: -70px 0;
+  width: 13px;
+  height: 22px;
+}
+.number7 {
+  background-image: url('sprite.png');
+  background-position: -84px 0;
+  width: 13px;
+  height: 22px;
+}
+.number8 {
+  background-image: url('sprite.png');
+  background-position: -98px 0;
+  width: 13px;
+  height: 22px;
+}
+.number9 {
+  background-image: url('sprite.png');
+  background-position: -112px 0;
+  width: 13px;
+  height: 22px;
+}
+.number0 {
+  background-image: url('sprite.png');
+  background-position: -126px 0;
+  width: 13px;
+  height: 22px;
+}
+
+.unpin-smile {
+  background-image: url('sprite.png');
+  background-position: 0px -25px;
+  width: 26px;
+  height: 25px;
+}
+.pin-smile {
+  background-image: url('sprite.png');
+  background-position: -27px -25px;
+  width: 26px;
+  height: 25px;
+}
+.ooo-smile {
+  background-image: url('sprite.png');
+  background-position: -54px -25px;
+  width: 26px;
+  height: 25px;
+}
+.success-smile {
+  background-image: url('sprite.png');
+  background-position: -81px -25px;
+  width: 26px;
+  height: 25px;
+}
+.unsuccess-smile {
+  background-image: url('sprite.png');
+  background-position: -108px -25px;
+  width: 26px;
+  height: 25px;
+}
+
+.unpin-btn {
+  background-image: url('sprite.png');
+  background-position: 0px -52px;
+  width: 16px;
+  height: 16px;
+}
+.pin-btn {
+  background-image: url('sprite.png');
+  background-position: -17px -52px;
+  width: 16px;
+  height: 16px;
+}
+.flag-btn {
+  background-image: url('sprite.png');
+  background-position: -34px -52px;
+  width: 16px;
+  height: 16px;
+}
+.unpin-question-btn {
+  background-image: url('sprite.png');
+  background-position: -51px -52px;
+  width: 16px;
+  height: 16px;
+}
+.pin-question-btn {
+  background-image: url('sprite.png');
+  background-position: -68px -52px;
+  width: 16px;
+  height: 16px;
+}
+.pin-mine-btn {
+  background-image: url('sprite.png');
+  background-position: -85px -52px;
+  width: 16px;
+  height: 16px;
+}
+.pin-blast-mine-btn {
+  background-image: url('sprite.png');
+  background-position: -102px -52px;
+  width: 16px;
+  height: 16px;
+}
+.pin-cros-mine-btn {
+  background-image: url('sprite.png');
+  background-position: -119px -52px;
+  width: 16px;
+  height: 16px;
+}
+.pin-digit-01 {
+  background-image: url('sprite.png');
+  background-position: 0px -69px;
+  width: 16px;
+  height: 16px;
+}
+.pin-digit-02 {
+  background-image: url('sprite.png');
+  background-position: -17px -69px;
+  width: 16px;
+  height: 16px;
+}
+.pin-digit-03 {
+  background-image: url('sprite.png');
+  background-position: -34px -69px;
+  width: 16px;
+  height: 16px;
+}
+.pin-digit-04 {
+  background-image: url('sprite.png');
+  background-position: -51px -69px;
+  width: 16px;
+  height: 16px;
+}
+.pin-digit-05 {
+  background-image: url('sprite.png');
+  background-position: -68px -69px;
+  width: 16px;
+  height: 16px;
+}
+.pin-digit-06 {
+  background-image: url('sprite.png');
+  background-position: -85px -69px;
+  width: 16px;
+  height: 16px;
+}
+.pin-digit-07 {
+  background-image: url('sprite.png');
+  background-position: -102px -69px;
+  width: 16px;
+  height: 16px;
+}
+.pin-digit-08 {
+  background-image: url('sprite.png');
+  background-position: -119px -69px;
+  width: 16px;
+  height: 16px;
+}
+.game-board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 256px; /* 16 elements x 8px each */
+  height: 256px; /* 16 elements x 8px each */
+  border: 1px solid black;
+}
+
+.board-row {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.board-cell {
+  width: 16px; /* sprite size */
+  height: 16px; /* sprite size */
+  border: 1px solid black;
+}
